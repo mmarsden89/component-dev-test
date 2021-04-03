@@ -1,3 +1,5 @@
 .layout-container {
   width: 100vw;
+
+  position: absolute;
 }

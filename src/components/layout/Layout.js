@@ -1,4 +1,5 @@
 import abc_logo from "../../assets/abc_logo.svg";
+import "./Layout.css";
 
 const Layout = () => {
   return (
