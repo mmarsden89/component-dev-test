@@ -1,6 +1,7 @@
 .layout-container {
   width: 100%;
   position: absolute;
+  margin-top: 25px;
 }
 
 .menu-container {
@@ -16,9 +17,11 @@
   color: white;
   padding: 10px 0;
   cursor: pointer;
+  transition: 0.25s;
 }
 
-.active {
+.active,
+.nav-link:hover {
   color: orange;
 }
 
@@ -28,4 +31,5 @@
   border: solid 1px white;
   color: white;
   font-family: HelveticaNeue-bold;
+  cursor: pointer;
 }

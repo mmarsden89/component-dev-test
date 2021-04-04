@@ -18,6 +18,8 @@
   height: 100%;
   width: 100%;
   text-align: left;
+  align-items: center;
+  margin-top: 19.5rem;
 }
 
 .marquee-headline {
@@ -28,4 +30,5 @@
 .marquee-subhead {
   font-size: 0.875rem;
   width: 22.5rem;
+  line-height: 1.625rem;
 }
