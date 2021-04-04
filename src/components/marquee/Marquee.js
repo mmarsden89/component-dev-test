@@ -1,16 +1,28 @@
 import content from "../../assets/content.json";
 import "./Marquee.css";
-import image from "../../assets/backgrounds/slide_one.jpg";
+import slide_one from "../../assets/backgrounds/slide_one.jpg";
+import slide_two from "../../assets/backgrounds/slide_two.jpg";
+import slide_three from "../../assets/backgrounds/slide_three.jpg";
 import CallToAction from "./calltoaction/CallToAction.js";
 
 const Marquet = (props) => {
+  const checkBackground = (title) => {
+    if (title === "Industries") {
+      return slide_one;
+    } else if (title === "Services") {
+      return slide_two;
+    } else {
+      return slide_three;
+    }
+  };
+
   console.log(props);
   const { currentPage } = props;
   return (
     <div
       className="marquee-container"
       style={{
-        backgroundImage: `url(${image})`,
+        backgroundImage: `url(${checkBackground(currentPage.title)})`,
       }}
     >
       <div className="marquee-content">

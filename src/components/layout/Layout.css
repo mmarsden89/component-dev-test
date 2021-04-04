@@ -1,19 +1,24 @@
 .layout-container {
-  width: 90vw;
+  width: 100%;
   position: absolute;
+}
+
+.menu-container {
   display: flex;
-  flex-direction: columns;
+  flex-direction: row;
   justify-content: space-between;
-  max-width: 1440px;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 .nav-link {
   font-family: HelveticaNeue-Bold;
   color: white;
   padding: 10px 0;
+  cursor: pointer;
 }
 
-.nav-link:active {
+.active {
   color: orange;
 }
 
