@@ -1,11 +1,15 @@
-import content from "../../assets/content.json";
 import "./Marquee.css";
-import slide_one from "../../assets/backgrounds/slide_one.jpg";
-import slide_two from "../../assets/backgrounds/slide_two.jpg";
-import slide_three from "../../assets/backgrounds/slide_three.jpg";
+import {
+  slide_one,
+  slide_two,
+  slide_three,
+  content,
+} from "../../assets/index.js";
 import CallToAction from "./calltoaction/CallToAction.js";
 
 const Marquet = (props) => {
+  const { currentPage } = props;
+
   const checkBackground = (title) => {
     if (title === "Industries") {
       return slide_one;
@@ -16,8 +20,6 @@ const Marquet = (props) => {
     }
   };
 
-  console.log(props);
-  const { currentPage } = props;
   return (
     <div
       className="marquee-container"

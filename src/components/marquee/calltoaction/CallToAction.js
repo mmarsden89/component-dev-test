@@ -1,11 +1,15 @@
 import "./CallToAction.css";
+import { arrow } from "../../../assets/index.js";
 
 const CallToAction = (props) => {
-  console.log("calltoaction props--->", props);
+  const { ctaText } = props;
   return (
     <div className="call-to-action-container">
-      <h2>{props.ctaText}</h2>
-      <p>Let's talk</p>
+      <p className="cta-text">{ctaText}</p>
+      <div className="lets-talk-container">
+        <p className="lets-talk-text">LET'S TALK.</p>
+        <img src={arrow} className="arrow" />
+      </div>
     </div>
   );
 };

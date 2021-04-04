@@ -1,14 +1,12 @@
-import abc_logo from "../../assets/abc_logo.svg";
+import { abc_logo, content } from "../../assets/index.js";
 import "./Layout.css";
-import content from "../../assets/content.json";
 
 const Layout = (props) => {
+  const { currentPage, handlePageChange } = props;
   const linkMap = content.pages.map((item) => (
     <div
-      className={
-        item.slug === props.currentPage ? "nav-link active" : "nav-link"
-      }
-      onClick={() => props.handlePageChange(item.slug)}
+      className={item.slug === currentPage ? "nav-link active" : "nav-link"}
+      onClick={() => handlePageChange(item.slug)}
       id={item.slug}
     >
       {item.title}
@@ -20,7 +18,7 @@ const Layout = (props) => {
       <div className="menu-container">
         <div>
           <img src={abc_logo} />
-          {linkMap}
+          <div className="nav-link-container">{linkMap}</div>
         </div>
         <div>
           <button className="contact-us">Contact Us</button>

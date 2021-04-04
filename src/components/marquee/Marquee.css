@@ -9,26 +9,37 @@
 }
 
 .marquee-content {
+  /* height: 17rem; */
   font-family: HelveticaNeue;
   color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
   text-align: left;
   align-items: center;
-  margin-top: 19.5rem;
+  margin-top: 12.5rem;
 }
 
 .marquee-headline {
-  font-size: 5.25rem;
   width: 38.25rem;
+  letter-spacing: -2.2px;
+  /* line-height: 5.25rem; */
+  font-family: HelveticaNeue;
+  font-size: 5.25rem;
+  font-weight: bold;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2.2px;
 }
 
 .marquee-subhead {
   font-size: 0.875rem;
   width: 22.5rem;
   line-height: 1.625rem;
+  letter-spacing: 0;
 }

@@ -1,28 +1,37 @@
 .layout-container {
   width: 100%;
   position: absolute;
-  margin-top: 25px;
+  margin-top: 1.179rem;
 }
 
 .menu-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 90vw;
+  width: 73.75rem;
   margin: 0 auto;
 }
 
 .nav-link {
   font-family: HelveticaNeue-Bold;
   color: white;
-  padding: 10px 0;
+  line-height: 1.625rem;
+  font-size: 0.875rem;
+  letter-spacing: 0;
   cursor: pointer;
   transition: 0.25s;
 }
 
+.nav-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 0.958rem;
+}
+
 .active,
 .nav-link:hover {
-  color: orange;
+  color: #ffc004;
 }
 
 .contact-us {
@@ -32,4 +41,5 @@
   color: white;
   font-family: HelveticaNeue-bold;
   cursor: pointer;
+  margin-top: 0.384rem;
 }
