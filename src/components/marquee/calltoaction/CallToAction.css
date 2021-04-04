@@ -1,0 +1,9 @@
+.call-to-action-container {
+  width: 73.75rem;
+  height: 11.188rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
