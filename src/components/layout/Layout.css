@@ -1,5 +1,26 @@
 .layout-container {
-  width: 100vw;
-
+  width: 90vw;
   position: absolute;
+  display: flex;
+  flex-direction: columns;
+  justify-content: space-between;
+  max-width: 1440px;
+}
+
+.nav-link {
+  font-family: HelveticaNeue-Bold;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-link:active {
+  color: orange;
+}
+
+.contact-us {
+  background-color: transparent;
+  padding: 10px 15px;
+  border: solid 1px white;
+  color: white;
+  font-family: HelveticaNeue-bold;
 }
