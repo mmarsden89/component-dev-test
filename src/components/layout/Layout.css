@@ -10,6 +10,30 @@
   justify-content: space-between;
   width: 73.75rem;
   margin: 0 auto;
+  animation: 0.5s hello2 linear;
+}
+
+@keyframes hello2 {
+  0% {
+    opacity: 0;
+    width: 80rem;
+  }
+  100% {
+    opacity: 1;
+    width: 73.75rem;
+  }
+}
+
+.logo {
+  filter: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.logo:hover {
+  filter: invert(0.4) sepia(1) saturate(5);
+  /* filter: invert(71%) sepia(93%) saturate(1200%) hue-rotate(359deg)
+    brightness(103%) contrast(104%); */
 }
 
 .nav-link {
@@ -42,4 +66,11 @@
   font-family: HelveticaNeue-bold;
   cursor: pointer;
   margin-top: 0.384rem;
+  transition: 0.25s;
+  font-size: 0.938rem;
+}
+
+.contact-us:hover {
+  border: solid 1px #ffc004;
+  color: #ffc004;
 }

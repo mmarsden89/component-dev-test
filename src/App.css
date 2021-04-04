@@ -2,3 +2,8 @@
   text-align: center;
   height: 100vh;
 }
+
+p,
+h1 {
+  margin: 0;
+}

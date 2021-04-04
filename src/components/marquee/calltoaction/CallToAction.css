@@ -7,6 +7,24 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 2.938rem;
+  animation: 0.5s hello linear;
+  position: absolute;
+  bottom: 0;
+}
+
+@keyframes hello {
+  0% {
+    opacity: 0;
+    margin-top: 8rem;
+  }
+  50% {
+    opacity: 0;
+    /* margin-top: 8rem; */
+  }
+  100% {
+    opacity: 1;
+    margin-top: 2.938rem;
+  }
 }
 
 .arrow {
@@ -19,6 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .lets-talk-text {
