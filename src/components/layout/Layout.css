@@ -61,6 +61,7 @@
 }
 
 .contact-us {
+  /* outline: 2px solid orange; */
   background-color: transparent;
   padding: 10px 15px;
   border: solid 1px white;
@@ -70,6 +71,12 @@
   margin-top: 0.384rem;
   transition: 0.25s;
   font-size: 0.938rem;
+}
+
+.contact-us:focus {
+  color: #ffc004;
+  border: solid 1px #ffc004;
+  outline: 2px solid #ffc004;
 }
 
 .contact-us:hover {
