@@ -3,7 +3,11 @@ import { slide_one, slide_two, slide_three } from "../../assets/index.js";
 import CallToAction from "./calltoaction/CallToAction.js";
 
 const Marquet = (props) => {
-  const { currentPage } = props;
+  const {
+    currentPage,
+    currentPage: { title, blocks },
+  } = props;
+  const { headline, subhead, cta } = blocks[0];
 
   // temporary solution
   // needs to be built out to handle content more dynamically
@@ -21,17 +25,15 @@ const Marquet = (props) => {
     <div
       className="marquee-container"
       style={{
-        backgroundImage: `url(${checkBackground(currentPage.title)})`,
+        backgroundImage: `url(${checkBackground(title)})`,
       }}
     >
       <div className="empty-container"></div>
       <div className="marquee-content">
-        <h1 className="marquee-headline">
-          {props.currentPage.blocks[0].headline}
-        </h1>
-        <p className="marquee-subhead">{currentPage.blocks[0].subhead}</p>
+        <h1 className="marquee-headline">{headline}</h1>
+        <p className="marquee-subhead">{subhead}</p>
       </div>
-      <CallToAction ctaText={currentPage.blocks[0].cta} />
+      <CallToAction ctaText={cta} />
     </div>
   );
 };
