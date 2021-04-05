@@ -27,7 +27,7 @@ const Marquet = (props) => {
         backgroundImage: `url(${checkBackground(title)})`,
       }}
     >
-      <div className="empty-container"></div>
+      <div className="content-box"></div>
       <div className="marquee-content">
         <h1 className="marquee-headline">{headline}</h1>
         <p className="marquee-subhead">{subhead}</p>
