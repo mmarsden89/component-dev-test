@@ -12,18 +12,6 @@
   width: 80vw;
   padding: 0 25px;
   margin: 0 auto;
-  animation: 0.5s hello2 linear;
-}
-
-@keyframes hello2 {
-  0% {
-    opacity: 0;
-    width: 80rem;
-  }
-  100% {
-    opacity: 1;
-    width: 73.75rem;
-  }
 }
 
 .logo {
@@ -34,8 +22,6 @@
 
 .logo:hover {
   filter: invert(0.4) sepia(1) saturate(5);
-  /* filter: invert(71%) sepia(93%) saturate(1200%) hue-rotate(359deg)
-    brightness(103%) contrast(104%); */
 }
 
 .nav-link {
@@ -61,7 +47,6 @@
 }
 
 .contact-us {
-  /* outline: 2px solid orange; */
   background-color: transparent;
   padding: 10px 15px;
   border: solid 1px white;

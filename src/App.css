@@ -2,6 +2,16 @@
   text-align: center;
   min-height: 100vh;
   max-width: 1440px;
+  animation: 1s fade-in linear;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 p,
