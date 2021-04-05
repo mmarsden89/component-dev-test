@@ -11,7 +11,10 @@ function App() {
       "./assets/backgrounds/slide_three.jpg",
     ];
 
-    cacheImages(images);
+    images.forEach((picture) => {
+      const img = new Image();
+      img.src = picture;
+    });
   }, []);
 
   const cacheImages = async (arr) => {
