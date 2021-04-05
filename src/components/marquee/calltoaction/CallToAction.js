@@ -8,7 +8,7 @@ const CallToAction = (props) => {
       <p className="cta-text">{ctaText}</p>
       <div className="lets-talk-container">
         <p className="lets-talk-text">LET'S TALK.</p>
-        <img src={arrow} className="arrow" />
+        <img src={arrow} className="arrow" alt="arrow" />
       </div>
     </div>
   );

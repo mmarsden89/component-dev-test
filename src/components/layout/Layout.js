@@ -22,7 +22,7 @@ const Layout = (props) => {
     <div className="layout-container">
       <div className="menu-container">
         <div>
-          <img src={abc_logo} className="logo" />
+          <img src={abc_logo} className="logo" alt="abc logo" />
           <div className="nav-link-container">{linkMap}</div>
         </div>
         <div>

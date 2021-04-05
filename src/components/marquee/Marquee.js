@@ -4,7 +4,6 @@ import CallToAction from "./calltoaction/CallToAction.js";
 
 const Marquet = (props) => {
   const {
-    currentPage,
     currentPage: { title, blocks },
   } = props;
   const { headline, subhead, cta } = blocks[0];
