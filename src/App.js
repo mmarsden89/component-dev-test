@@ -1,16 +1,11 @@
 import "./App.css";
-import Layout from "./components/layout/Layout.js";
 import Root from "./components/root/Root";
 import React, { useEffect } from "react";
+import { slide_one, slide_two, slide_three } from "./assets/index.js";
 
 function App() {
   useEffect(() => {
-    const images = [
-      "./assets/backgrounds/slide_one.jpg",
-      "./assets/backgrounds/slide_twoo.jpg",
-      "./assets/backgrounds/slide_three.jpg",
-    ];
-
+    const images = [slide_one, slide_two, slide_three];
     images.forEach((picture) => {
       const img = new Image();
       img.src = picture;
