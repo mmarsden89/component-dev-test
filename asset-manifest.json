@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/component-dev-test/static/css/main.3815f520.chunk.css",
-    "main.js": "/component-dev-test/static/js/main.7ebbe564.chunk.js",
-    "main.js.map": "/component-dev-test/static/js/main.7ebbe564.chunk.js.map",
-    "runtime-main.js": "/component-dev-test/static/js/runtime-main.e9449d4c.js",
-    "runtime-main.js.map": "/component-dev-test/static/js/runtime-main.e9449d4c.js.map",
-    "static/js/2.ff48955d.chunk.js": "/component-dev-test/static/js/2.ff48955d.chunk.js",
-    "static/js/2.ff48955d.chunk.js.map": "/component-dev-test/static/js/2.ff48955d.chunk.js.map",
-    "static/js/3.91c25d69.chunk.js": "/component-dev-test/static/js/3.91c25d69.chunk.js",
-    "static/js/3.91c25d69.chunk.js.map": "/component-dev-test/static/js/3.91c25d69.chunk.js.map",
+    "main.js": "/component-dev-test/static/js/main.5d85fce8.chunk.js",
+    "main.js.map": "/component-dev-test/static/js/main.5d85fce8.chunk.js.map",
+    "runtime-main.js": "/component-dev-test/static/js/runtime-main.5c512c85.js",
+    "runtime-main.js.map": "/component-dev-test/static/js/runtime-main.5c512c85.js.map",
+    "static/js/2.90c35a17.chunk.js": "/component-dev-test/static/js/2.90c35a17.chunk.js",
+    "static/js/2.90c35a17.chunk.js.map": "/component-dev-test/static/js/2.90c35a17.chunk.js.map",
+    "static/js/3.a8765920.chunk.js": "/component-dev-test/static/js/3.a8765920.chunk.js",
+    "static/js/3.a8765920.chunk.js.map": "/component-dev-test/static/js/3.a8765920.chunk.js.map",
     "index.html": "/component-dev-test/index.html",
     "static/css/main.3815f520.chunk.css.map": "/component-dev-test/static/css/main.3815f520.chunk.css.map",
-    "static/js/2.ff48955d.chunk.js.LICENSE.txt": "/component-dev-test/static/js/2.ff48955d.chunk.js.LICENSE.txt",
+    "static/js/2.90c35a17.chunk.js.LICENSE.txt": "/component-dev-test/static/js/2.90c35a17.chunk.js.LICENSE.txt",
     "static/media/abc_logo.c72ca4e0.svg": "/component-dev-test/static/media/abc_logo.c72ca4e0.svg",
     "static/media/arrow.2e6c6f50.png": "/component-dev-test/static/media/arrow.2e6c6f50.png",
     "static/media/slide_one.df407357.jpg": "/component-dev-test/static/media/slide_one.df407357.jpg",
@@ -19,9 +19,9 @@
     "static/media/slide_two.b7b871cc.jpg": "/component-dev-test/static/media/slide_two.b7b871cc.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9449d4c.js",
-    "static/js/2.ff48955d.chunk.js",
+    "static/js/runtime-main.5c512c85.js",
+    "static/js/2.90c35a17.chunk.js",
     "static/css/main.3815f520.chunk.css",
-    "static/js/main.7ebbe564.chunk.js"
+    "static/js/main.5d85fce8.chunk.js"
   ]
 }
