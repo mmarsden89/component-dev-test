@@ -3,7 +3,7 @@ import Marquee from "../marquee/Marquee.js";
 import Layout from "../layout/Layout.js";
 import { content } from "../../assets/index.js";
 
-const Root = () => {
+const StateWrapper = () => {
   const [currentPage, setCurrentPage] = useState(content.pages[0]);
 
   const handlePageChange = (slug) => {
@@ -22,4 +22,4 @@ const Root = () => {
   );
 };
 
-export default Root;
+export default StateWrapper;

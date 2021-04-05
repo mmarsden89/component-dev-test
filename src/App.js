@@ -1,11 +1,11 @@
 import "./App.css";
-import Root from "./components/root/Root";
+import StateWrapper from "./components/StateWrapper/StateWrapper";
 import React, { useEffect } from "react";
 
 function App() {
   return (
     <div className="App">
-      <Root />
+      <StateWrapper />
     </div>
   );
 }
