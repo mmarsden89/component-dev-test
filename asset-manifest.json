@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/component-dev-test/static/css/main.f935727c.chunk.css",
+    "main.js": "/component-dev-test/static/js/main.1c1072ee.chunk.js",
+    "main.js.map": "/component-dev-test/static/js/main.1c1072ee.chunk.js.map",
+    "runtime-main.js": "/component-dev-test/static/js/runtime-main.5c512c85.js",
+    "runtime-main.js.map": "/component-dev-test/static/js/runtime-main.5c512c85.js.map",
+    "static/js/2.d88f8a14.chunk.js": "/component-dev-test/static/js/2.d88f8a14.chunk.js",
+    "static/js/2.d88f8a14.chunk.js.map": "/component-dev-test/static/js/2.d88f8a14.chunk.js.map",
+    "static/js/3.a8765920.chunk.js": "/component-dev-test/static/js/3.a8765920.chunk.js",
+    "static/js/3.a8765920.chunk.js.map": "/component-dev-test/static/js/3.a8765920.chunk.js.map",
+    "index.html": "/component-dev-test/index.html",
+    "static/css/main.f935727c.chunk.css.map": "/component-dev-test/static/css/main.f935727c.chunk.css.map",
+    "static/js/2.d88f8a14.chunk.js.LICENSE.txt": "/component-dev-test/static/js/2.d88f8a14.chunk.js.LICENSE.txt",
+    "static/media/abc_logo.c72ca4e0.svg": "/component-dev-test/static/media/abc_logo.c72ca4e0.svg",
+    "static/media/arrow.2e6c6f50.png": "/component-dev-test/static/media/arrow.2e6c6f50.png",
+    "static/media/slide_one.df407357.jpg": "/component-dev-test/static/media/slide_one.df407357.jpg",
+    "static/media/slide_three.25c6c4ee.jpg": "/component-dev-test/static/media/slide_three.25c6c4ee.jpg",
+    "static/media/slide_two.b7b871cc.jpg": "/component-dev-test/static/media/slide_two.b7b871cc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c512c85.js",
+    "static/js/2.d88f8a14.chunk.js",
+    "static/css/main.f935727c.chunk.css",
+    "static/js/main.1c1072ee.chunk.js"
+  ]
+}
