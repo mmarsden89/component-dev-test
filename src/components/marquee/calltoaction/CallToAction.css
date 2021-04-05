@@ -28,6 +28,7 @@
   font-size: 0.688rem;
   line-height: 1.25rem;
   letter-spacing: 1px;
+  padding: 0 25px;
 }
 
 .cta-text {
@@ -35,6 +36,7 @@
   font-size: 1.5rem;
   line-height: 2rem;
   letter-spacing: -0.63px;
+  padding: 0 25px;
 }
 
 @media only screen and (max-width: 1200px) {
