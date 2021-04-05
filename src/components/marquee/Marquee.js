@@ -1,15 +1,12 @@
 import "./Marquee.css";
-import {
-  slide_one,
-  slide_two,
-  slide_three,
-  content,
-} from "../../assets/index.js";
+import { slide_one, slide_two, slide_three } from "../../assets/index.js";
 import CallToAction from "./calltoaction/CallToAction.js";
 
 const Marquet = (props) => {
   const { currentPage } = props;
 
+  // temporary solution
+  // needs to be built out to handle content more dynamically
   const checkBackground = (title) => {
     if (title === "Industries") {
       return slide_one;
