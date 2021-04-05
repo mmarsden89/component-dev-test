@@ -2,6 +2,7 @@ import "./CallToAction.css";
 import { arrow } from "../../../assets/index.js";
 
 const CallToAction = (props) => {
+  console.log(props);
   const { ctaText } = props;
   return (
     <div className="call-to-action-container">

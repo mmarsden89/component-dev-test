@@ -27,6 +27,7 @@ const Marquet = (props) => {
         backgroundImage: `url(${checkBackground(currentPage.title)})`,
       }}
     >
+      <div className="empty-container"></div>
       <div className="marquee-content">
         <h1 className="marquee-headline">
           {props.currentPage.blocks[0].headline}
