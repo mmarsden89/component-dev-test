@@ -26,6 +26,7 @@ function App() {
     });
 
     await Promise.all(promises);
+    console.log("done");
   };
   return (
     <div className="App">
