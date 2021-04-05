@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/component-dev-test/static/css/main.3815f520.chunk.css",
-    "main.js": "/component-dev-test/static/js/main.5d85fce8.chunk.js",
-    "main.js.map": "/component-dev-test/static/js/main.5d85fce8.chunk.js.map",
+    "main.css": "/component-dev-test/static/css/main.2e8b6e1b.chunk.css",
+    "main.js": "/component-dev-test/static/js/main.cfea8978.chunk.js",
+    "main.js.map": "/component-dev-test/static/js/main.cfea8978.chunk.js.map",
     "runtime-main.js": "/component-dev-test/static/js/runtime-main.5c512c85.js",
     "runtime-main.js.map": "/component-dev-test/static/js/runtime-main.5c512c85.js.map",
     "static/js/2.90c35a17.chunk.js": "/component-dev-test/static/js/2.90c35a17.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.a8765920.chunk.js": "/component-dev-test/static/js/3.a8765920.chunk.js",
     "static/js/3.a8765920.chunk.js.map": "/component-dev-test/static/js/3.a8765920.chunk.js.map",
     "index.html": "/component-dev-test/index.html",
-    "static/css/main.3815f520.chunk.css.map": "/component-dev-test/static/css/main.3815f520.chunk.css.map",
+    "static/css/main.2e8b6e1b.chunk.css.map": "/component-dev-test/static/css/main.2e8b6e1b.chunk.css.map",
     "static/js/2.90c35a17.chunk.js.LICENSE.txt": "/component-dev-test/static/js/2.90c35a17.chunk.js.LICENSE.txt",
     "static/media/abc_logo.c72ca4e0.svg": "/component-dev-test/static/media/abc_logo.c72ca4e0.svg",
     "static/media/arrow.2e6c6f50.png": "/component-dev-test/static/media/arrow.2e6c6f50.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.5c512c85.js",
     "static/js/2.90c35a17.chunk.js",
-    "static/css/main.3815f520.chunk.css",
-    "static/js/main.5d85fce8.chunk.js"
+    "static/css/main.2e8b6e1b.chunk.css",
+    "static/js/main.cfea8978.chunk.js"
   ]
 }
